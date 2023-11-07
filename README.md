@@ -1,15 +1,12 @@
-# Headline
+# MetaDevGirl Headline
 
-Headline is a [Ghost](https://github.com/TryGhost/Ghost) theme built from the ground up for local news. While it can be used for any purpose, the theme takes a thoughtful approach to displaying large amounts of content across various areas of coverage. Headline adapts to your content by showcasing your most written about topics or by giving you the control to decide which topics are front and center.
+This is a theme based on Ghost CMS Headline. Although it is not a direct fork of the repository, it is maintained with the original repository as an upstream source for on-going changes.
 
-**Demo: https://headline.ghost.io**
+The original README for Headline can be found as [Headline-README.md](/Headline-README.md)
 
-# Instructions
+# Setup
 
-1. [Download this theme](https://github.com/TryGhost/Headline/archive/main.zip)
-2. Log into Ghost, and go to the `Design` settings area to upload the zip file
-
-# Development
+## Development
 
 Edition styles are compiled using Gulp/PostCSS to polyfill future CSS spec. You'll need [Node](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and [Gulp](https://gulpjs.com) installed globally. After that, from the theme's root directory:
 
@@ -29,10 +26,14 @@ The `zip` Gulp task packages the theme files into `dist/headline.zip`, which you
 yarn zip
 ```
 
-# Contribution
 
-This repo is synced automatically with [TryGhost/Themes](https://github.com/TryGhost/Themes) monorepo. If you're looking to contribute or raise an issue, head over to the main repository [TryGhost/Themes](https://github.com/TryGhost/Themes) where our official themes are developed.
 
-## Copyright & License
+# Features
 
-Copyright (c) 2013-2023 Ghost Foundation - Released under the [MIT license](LICENSE).
+## Base features
+- Primary Sections (Homepage)
+- Secondary Sections (Homepage)
+
+## Extended features
+- [ ] Featured section (Homepage)
+- [ ] Live stream section (Homepage)
